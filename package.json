@@ -1,0 +1,25 @@
+{
+  "name": "valid-cpf-lib",
+  "version": "1.0.0",
+  "description": "Validador de número de CPF.",
+  "main": "./src/index.js",
+  "directories": {
+    "test": "test/index.spec.js"
+  },
+  "scripts": {
+    "test": "./node_modules/nyc/bin/nyc.js ./node_modules/mocha/bin/mocha",
+    "lint": "./node_modules/eslint/bin/eslint.js ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amanda-gomes/valid-cpf-lib.git"
+  },
+  "author": "Amanda Gomes",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "mocha": "^6.1.4",
+    "nyc": "^14.0.0"
+  }
+}
