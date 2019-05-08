@@ -1,6 +1,4 @@
-/* eslint-disable no-undef */
-const chai = require('chai');
-const expect = chai.expect;
+const expect = require('chai').expect;
 const valid = require('../src/index');
 
 describe('valid cpf lib', () => {
@@ -15,7 +13,7 @@ describe('valid cpf lib', () => {
       expect(valid.cpfValidator('7829279262543')).to.equal(false);
     });    
     it('dígitos iguais', () => {
-      expect(valid.cpfValidator('11111111111')).to.equal(false);
+      expect(valid.cpfValidator('99999999999')).to.equal(false);
     });
     it('primeiro dígito verificador incorreto', () => {
       expect(valid.cpfValidator('12345678910')).to.equal(false);

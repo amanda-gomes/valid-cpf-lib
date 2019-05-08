@@ -1,10 +1,10 @@
 {
-  "name": "valid-cpf-lib",
+  "name": "valid-cpf-lib-amanda-gomes",
   "version": "1.0.0",
   "description": "Validador de número de CPF.",
-  "main": "src/index.js",
+  "main": "./src/index.js",
   "directories": {
-    "test": "test/index.spec.js"
+    "test": "./test/index.spec.js"
   },
   "scripts": {
     "test": "node_modules/nyc/bin/nyc.js node_modules/mocha/bin/mocha",
